@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #/",
+    "#/#",
+    "/# "
+  ],
+  "key": {
+    "#": "minecraft:bamboo",
+    "/": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "minecraft:blaze_rod",
+    "components": {
+      "minecraft:item_name": "divine_stick",
+      "minecraft:custom_name": "'Divine Stick'",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:lore": [
+                  "{'text': 'Le Dieu Dromadaire', 'color': 'gold', 'italic': true}",
+                  "{'text': 'a confié ce sceptre aux élus', 'color': 'gray', 'italic': true}",
+                  "{'text': 'pour frapper sans s’approcher', 'color': 'gray', 'italic': true}"
+      ]
+    }
+  }
+}

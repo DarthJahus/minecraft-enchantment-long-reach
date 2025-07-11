@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " /#",
+    "/#/",
+    "#/ "
+  ],
+  "key": {
+    "#": "minecraft:bamboo",
+    "/": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "minecraft:bamboo",
+    "components": {
+      "minecraft:item_name": "panda_stick",
+      "minecraft:custom_name": "'Panda Stick'",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:lore": [
+        "{'text': 'Le Grand Guide Suprême Bambo', 'color': 'green', 'italic': true}",
+        "{'text': 'a fait don de son long bras télescopique', 'color': 'gray', 'italic': true}",
+        "{'text': 'à son émissaire diplomatique dans l’Overworld.', 'color': 'gray', 'italic': true}"
+      ]
+    }
+  }
+}

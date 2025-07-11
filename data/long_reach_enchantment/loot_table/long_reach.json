@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "long_reach_enchantment:long_reach": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "long_reach_scroll",
+                "minecraft:custom_name": "'Parchemin du Long Toucher'",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_stack_size": 1,
+                "minecraft:lore": [
+                  "{'text': 'Du désert ardent', 'color': 'gold', 'italic': true}",
+                  "{'text': 'aux vastes forêts de bambou', 'color': 'green', 'italic': true}",
+                  "{'text': 'Le bâton n’est pas long.', 'color': 'dark_purple', 'italic': true}",
+                  "{'text': 'C’est le monde qui est court.', 'color': 'dark_purple', 'italic': true}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
